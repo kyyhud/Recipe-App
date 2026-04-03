@@ -1,0 +1,29 @@
+{
+  "recipes": [
+    {
+      "id": "seed-1",
+      "name": "Lemon Herb Chickpea Bowl",
+      "category": "Lunch",
+      "description": "Bright, protein-rich bowl with chickpeas, quinoa, and citrus herbs.",
+      "ingredients": [
+        "1 cup cooked quinoa",
+        "1 can chickpeas, rinsed",
+        "1 cup cherry tomatoes, halved",
+        "1 cucumber, diced",
+        "2 tbsp olive oil",
+        "1 lemon, juiced",
+        "2 tbsp chopped parsley",
+        "Salt and black pepper"
+      ],
+      "instructions": [
+        "In a large bowl, whisk olive oil, lemon juice, salt, and pepper.",
+        "Add quinoa, chickpeas, tomatoes, and cucumber; toss well.",
+        "Fold in chopped parsley and adjust seasoning.",
+        "Serve chilled or at room temperature."
+      ],
+      "prepTime": 15,
+      "cookTime": 0,
+      "servings": 2
+    }
+  ]
+}

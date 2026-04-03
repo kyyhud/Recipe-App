@@ -1,16 +1,50 @@
-# React + Vite
+# Recipe App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A practice project for building a full-featured recipe management app using React, Vite, and JSON Server.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## What This Project Does
 
-## React Compiler
+- Demonstrates understanding of React fundamentals including components, state, hooks, and routing
+- Provides a working UI for browsing, adding, editing, and deleting recipes
+- Persists recipe data to a local JSON database via JSON Server
+- Part of my Full-Stack Web Development Bootcamp coursework
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Skills Practiced
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Version control and GitHub workflow
+- Building component-based UIs with React
+- Client-side routing with React Router
+- Managing async API calls and loading/error state
+- CRUD operations against a REST-style API (JSON Server)
+- Custom React hooks and Context API for shared state
+- Responsive layout and component styling with vanilla CSS
+
+---
+
+## How to Run the Project
+
+1. Clone or download the repository
+2. Open the project folder and install dependencies:
+   ```
+   npm install
+   ```
+3. Start the JSON Server (API on port 3002):
+   ```
+   npm run server
+   ```
+4. In a separate terminal, start the Vite dev server:
+   ```
+   npm run dev
+   ```
+5. Open the local URL shown in the terminal (e.g. `http://localhost:5173`) in your browser
+
+---
+
+## Project Status
+
+- In progress as part of a learning curriculum
+- Core features complete: browse, search, add, edit, and delete recipes
