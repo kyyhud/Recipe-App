@@ -1,27 +1,29 @@
 # Recipe App
 
-A practice project for building a full-featured recipe management app using React, Vite, and JSON Server.
+A full-featured recipe management app built using React, Vite, and JSON Server—managed and implemented through GenAI code generation under direct oversight and quality assurance.
 
 ---
 
 ## What This Project Does
 
-- Demonstrates understanding of React fundamentals including components, state, hooks, and routing
+- Demonstrates production management of GenAI-generated React code with full CRUD functionality
 - Provides a working UI for browsing, adding, editing, and deleting recipes
 - Persists recipe data to a local JSON database via JSON Server
+- Showcases ability to guide, review, and refine AI-generated implementations through technical understanding
 - Part of my Full-Stack Web Development Bootcamp coursework
 
 ---
 
-## Skills Practiced
+## Skills Demonstrated
 
-- Version control and GitHub workflow
-- Building component-based UIs with React
-- Client-side routing with React Router
-- Managing async API calls and loading/error state
-- CRUD operations against a REST-style API (JSON Server)
-- Custom React hooks and Context API for shared state
-- Responsive layout and component styling with vanilla CSS
+- GenAI code generation management and prompt engineering
+- Code review and quality assurance for AI-generated React implementations
+- Understanding and verification of React fundamentals (components, state, hooks, routing)
+- API integration oversight — ensuring proper async patterns and error handling
+- Architecture review — validating data layer design, state management, and component organization
+- Testing and debugging AI-generated code to ensure production readiness
+- Version control and deployment workflow management
+- Technical decision-making and trade-off analysis for component reuse and state patterns
 
 ---
 

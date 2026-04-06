@@ -4,17 +4,19 @@
 
 ## Overview
 
-The Recipe App is a single-page React application that lets users browse, search, add, edit, and delete personal recipes. It was built as part of a Full-Stack Web Development Bootcamp curriculum to practice integrating a React frontend with a lightweight REST-style backend (JSON Server).
+The Recipe App is a single-page React application that lets users browse, search, add, edit, and delete personal recipes. It was generated and refined through GenAI-assisted development under direct management and quality oversight as part of a Full-Stack Web Development Bootcamp curriculum. The project demonstrates the ability to guide AI code generation, validate implementations against React best practices, and ensure production-ready functionality.
 
 ---
 
 ## Goals
 
-- Apply React fundamentals — components, props, state, and hooks — in a real-world project
-- Use client-side routing to simulate a multi-page experience
-- Persist data to a local JSON database via API calls instead of browser storage
-- Practice component reuse, custom hooks, and the Context API for shared application state
-- Build a responsive, clean UI using vanilla CSS variables and layout patterns
+- Manage GenAI code generation to build a complete React application with CRUD operations
+- Guide AI implementation to follow React fundamentals — components, props, state, and hooks — in a production-ready way
+- Validate client-side routing implementation to simulate a multi-page experience
+- Ensure proper data persistence to a local JSON database via API calls
+- Review and refine component reuse patterns, custom hooks, and Context API state management
+- Oversee responsive UI design using vanilla CSS variables and layout patterns
+- Verify and test all functionality through understanding of the underlying implementation
 
 ---
 
@@ -132,14 +134,15 @@ recipe-app/
 
 ## Skills Demonstrated
 
-- React 19 with functional components, hooks, and Context API
-- Client-side routing with React Router v7
-- Async data fetching with the native Fetch API and proper loading/error state
-- CRUD operations (Create, Read, Update, Delete) against a REST-style API
-- Controlled forms, client-side validation, and reusable form components
-- Custom hooks for shared state management
-- Responsive layout with CSS Grid and CSS custom properties
-- Project organisation into service, hook, component, and page layers
+- **GenAI Code Generation Management** — Prompt engineering and iterative refinement of AI-generated React code to match project requirements
+- **Code Review & Quality Assurance** — Validating AI implementations against React best practices, identifying and fixing linting errors, and verifying production readiness
+- **React Architecture Understanding** — Deep knowledge of functional components, hooks (useState, useCallback, useMemo, useContext), and Context API required to oversee and refine AI-generated implementations
+- **Async Pattern Oversight** — Ensuring proper data fetching, loading/error state handling, and API call patterns in AI-generated code
+- **Component Design Guidance** — Validating component reuse, controlled form patterns, and separation of concerns in the generated code
+- **Routing Implementation Review** — Ensuring nested route structures, navigation patterns, and route-level state management follow React Router best practices
+- **State Management Validation** — Reviewing custom hooks and Context patterns to ensure they're performant and maintainable
+- **Full-Stack Integration** — Understanding both the React frontend and JSON Server backend integration to guide coherent GenAI implementations
+- **Testing & Iteration** — Deploying and testing AI-generated code to verify CRUD operations work end-to-end
 
 ---
 
