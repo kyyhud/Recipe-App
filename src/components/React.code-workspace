@@ -1,0 +1,14 @@
+{
+  "folders": [
+	{
+		"path": "../../../.."
+	},
+	{
+		"path": "../../../../../../VS-Code"
+	},
+	{
+		"path": "../../../../../../5.DataStructuresAndAlgorithms/Node Programs"
+	}
+],
+  "settings": {}
+}
