@@ -6,16 +6,18 @@ const RecipesContext = createContext(null);
 function normalizeRecipe(formData) {
   const splitLines = (value) =>
     value
-      .split(/\r?\n|,/)
+      .split(/\r?\n/)
       .map((item) => item.trim())
       .filter(Boolean);
+
+  const splitInstructionLines = (value) => splitLines(value).map((item) => item.replace(/^\d+[.)-]?\s*/, ""));
 
   return {
     name: formData.name.trim(),
     category: formData.category,
     description: formData.description.trim(),
     ingredients: splitLines(formData.ingredients),
-    instructions: splitLines(formData.instructions),
+    instructions: splitInstructionLines(formData.instructions),
     prepTime: Number(formData.prepTime) || 0,
     cookTime: Number(formData.cookTime) || 0,
     servings: Number(formData.servings) || 1,

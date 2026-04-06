@@ -25,6 +25,7 @@ function AddRecipe() {
         <p className="eyebrow">Create recipe</p>
         <h2>Add your own recipe</h2>
         <p>Save the ingredients and steps so you can revisit them anytime.</p>
+        <p>Enter each ingredient and instruction on its own line. Instruction numbers are added automatically when the recipe is displayed.</p>
       </div>
       <RecipeForm onSubmit={handleAddRecipe} isSubmitting={isSubmitting} />
     </section>

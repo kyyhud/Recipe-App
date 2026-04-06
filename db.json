@@ -1,7 +1,6 @@
 {
   "recipes": [
     {
-      "id": "seed-1",
       "name": "Lemon Herb Chickpea Bowl",
       "category": "Lunch",
       "description": "Bright, protein-rich bowl with chickpeas, quinoa, and citrus herbs.",
@@ -23,7 +22,8 @@
       ],
       "prepTime": 15,
       "cookTime": 0,
-      "servings": 2
+      "servings": 2,
+      "id": "seed-1"
     },
     {
       "name": "Peach Crumble",
@@ -47,22 +47,22 @@
       ],
       "instructions": [
         "Make the peaches:",
-        "1. Add peaches to a large skillet or pot over medium heat.",
-        "2. Once they start releasing juice add maple syrup cinnamon lemon juice and salt.",
-        "3. Cook 5–7 minutes stirring occasionally until glossy and warm.",
-        "4. Taste and adjust sweetness or cinnamon.",
-        "5. Keep warm on low heat.",
+        "Add peaches to a large skillet or pot over medium heat.",
+        "Once they start releasing juice add maple syrup cinnamon lemon juice and salt.",
+        "Cook 5–7 minutes stirring occasionally until glossy and warm.",
+        "Taste and adjust sweetness or cinnamon.",
+        "Keep warm on low heat.",
         "Make the crumble:",
-        "1. Heat a large skillet over medium.",
-        "2. Add oats + coconut oil + maple syrup + cinnamon + salt.",
-        "3. Stir 3–5 minutes until lightly toasted and clumpy.",
-        "4. If using pecans",
+        "Heat a large skillet over medium.",
+        "Add oats + coconut oil + maple syrup + cinnamon + salt.",
+        "Stir 3–5 minutes until lightly toasted and clumpy.",
+        "If using pecans",
         "stir them in during the last minute.",
-        "5. Remove from heat so it doesn’t burn."
+        "Remove from heat so it doesn’t burn."
       ],
       "prepTime": 5,
       "cookTime": 15,
-      "servings": 8,
+      "servings": 16,
       "id": "zazidOoJorc"
     }
   ],

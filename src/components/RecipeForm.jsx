@@ -98,19 +98,21 @@ function RecipeForm({
       </div>
 
       <label>
-        Ingredients (comma or new line separated)
-        <textarea name="ingredients" rows="5" value={formData.ingredients} onChange={handleChange} placeholder="Pasta, canned tomatoes, garlic, basil" />
+        Ingredients
+        <textarea name="ingredients" rows="5" value={formData.ingredients} onChange={handleChange} placeholder={"Pasta\nCanned tomatoes\nGarlic\nBasil"} />
+        <span className="field-hint">Enter one ingredient per line. Press Enter after each ingredient.</span>
       </label>
 
       <label>
-        Instructions (comma or new line separated)
+        Instructions
         <textarea
           name="instructions"
           rows="6"
           value={formData.instructions}
           onChange={handleChange}
-          placeholder="Boil pasta, simmer sauce, combine and serve"
+          placeholder={"Boil the pasta until al dente.\nSimmer the sauce for 10 minutes.\nCombine everything and serve."}
         />
+        <span className="field-hint">Enter one step per line. The recipe page will number each line for you automatically.</span>
       </label>
 
       {formError && <p className="message error">{formError}</p>}
